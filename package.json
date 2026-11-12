@@ -1,0 +1,15 @@
+{
+  "name": "captcha-gate-edtech-typescript",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node src/captcha_gate.ts",
+    "test": "node src/captcha_gate.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.6.0",
+    "zod": "^3.23.0"
+  }
+}
